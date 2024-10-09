@@ -1,0 +1,129 @@
+
+.template-container{
+    width: 794px;
+    height: 1000px;
+    overflow: hidden;
+}
+.template-brand{
+    padding: 2% 5%;
+}
+
+.template-divider{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.template-divider div:nth-child(1){
+    width: 60vw;
+    height: 50px;
+    background-color: #FFC809;
+}
+.template-divider div:nth-child(3){
+    width: 15vw;
+    height: 50px;
+    background-color: #FFC809;
+}
+.template-divider h1{
+    font-size: 2.5rem;
+    padding: 0 10px;
+}
+.details-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 5%;
+    margin-top: 1rem;
+}
+.dh-left,.dh-right{
+    flex: 1;
+}
+.dh-left section{
+    display: flex;
+    gap: 1rem;
+}
+.dh-left section h4{
+    width: 200px;
+}
+.dh-right{
+    padding-left:250px ;
+}
+.dh-right section{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.item-details1{
+    padding: 0% 5%;
+    margin-top: 1rem;
+    min-height: 500px;
+}
+.total-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.total-container div{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 10%;
+    background-color: #FFC809;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.payment-info{
+    padding: 0% 5%;
+    margin-top: 1rem;
+    width: 30vw;
+
+}
+.payment-info h3{
+    margin-bottom: 1rem;
+}
+.payment-info section{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.payment-info section h4{
+    flex: 1;
+}
+.payment-info section p{
+    text-align: start;
+    width: 5vw;
+}
+.template-footer-divider{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 5rem;
+    
+}
+.template-footer-divider div:nth-child(3){
+    width: 500px;
+    height: 10px;
+    background-color: #FFC809;
+}
+.template-footer-divider p{
+    border-top: 1px solid #000000;
+}
+.template-footer-divider div:nth-child(1){
+    width: 5vw;
+    height: 10px;
+    background-color: #FFC809;
+}
+
+.template-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2%;
+    background-color: #FFC809;
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+
+.temp1-table .ant-table-thead > tr > th {
+    background-color: #141414; /* Header background color */
+    color: #ffffff; /* Header text color */
+}
+

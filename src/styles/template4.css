@@ -1,0 +1,139 @@
+.template-4{
+    width: 794px;
+    height: 1123px;
+    padding: 40px;
+}
+.invoice-header4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.invoice-header-left4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 150px;
+    padding-left: 75px;
+    background-position: center;
+}
+.invoice-header-right4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    width: 50%;
+    height: 150px;
+}
+.content4{
+    padding-right: 10px;
+    border-right: 5px solid #FEE358;
+}
+.billing-info4{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+.item-details4{
+    padding: 10px;
+    min-height: 370px;
+}
+.table-head4{
+    display: flex;
+    border-top: 3px solid #FEE358;
+    padding: 5px 0;
+    border-bottom: 1px solid #000;
+}
+.table-head4 p:nth-child(1){
+    width: 445px;
+}
+.table-head4 p:nth-child(2){
+    width: 100px;
+    text-align: center;
+}
+.table-head4 p:nth-child(3){
+    width: 100px;
+    text-align: center;
+}
+.table-head4 p:nth-child(4){
+    width: 145px;
+    text-align: center;
+}
+.table-row4{
+    display: flex;
+    padding: 5px 0;
+    border-bottom: 1px solid #606060b3;
+}
+.table-row4 p:nth-child(1){
+    width: 445px;
+}
+.table-row4 p:nth-child(2){
+    width: 100px;
+    text-align: center;
+}
+.table-row4 p:nth-child(3){
+    width: 100px;
+    text-align: center;
+}
+.table-row4 p:nth-child(4){
+    width: 145px;
+    text-align: center;
+}
+.item-totals4{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 60px;
+}
+.it-right4{
+    width:300px;
+    border-bottom: 3px solid #FEE358;
+}
+.it-right4 span{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.it-right4 span p{
+    width: 149px;
+    text-align: end;
+}
+.invoice-footer4{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+.if-left4{
+    flex: 1;
+}
+.if-left4 p{
+    font-size: 0.8rem;
+}
+
+.if-right4{
+    display: flex;
+    border: 3px solid #FEE358;
+    flex: 1;
+    padding: 10px;
+}
+.ifr-left4{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+.ifr-left4 section{
+    display: flex;
+    gap: 10px;
+}
+.ifr-right4{
+    
+    flex: 1;
+}
+.ifr-right4 img{
+    width: 90px;
+}

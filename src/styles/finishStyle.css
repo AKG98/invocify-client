@@ -1,0 +1,16 @@
+.finish-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.invo-action{
+    display: flex;
+    width: 794px;
+    height: 10vh;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+
+}

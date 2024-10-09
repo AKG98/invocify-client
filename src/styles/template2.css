@@ -1,0 +1,153 @@
+.invo-action{
+    display: flex;
+    width: 794px;
+    height: 10vh;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+
+}
+.invoice-body2{
+    width: 794px;
+    height: 1123px;
+    padding: 30px;
+}
+.logo-wrapper2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.logo section2{
+    background-color: red;
+    width: 30px;
+    height: 10px;
+}
+.invo2{
+    color: red;
+}
+.invo-date2{
+    margin-bottom: 30px;
+}
+.info-wrapper2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 150px;
+    margin-bottom: 30px;
+}
+.bill-to2{
+    width: 50%;
+}
+.bill-to2 p:nth-child(1),.bill-from2 p:nth-child(1){
+    background-color: rgb(4, 22, 74);
+    color: white;
+    padding: 0 10px;
+}
+.bill-from2{
+    width: 50%;
+}
+.items2{
+    margin-bottom: 30px;
+    font-size: 0.85rem;
+    min-height: 300px;
+}
+.tab-header2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(4, 22, 74);
+    color: white;
+    padding: 5px 10px ;
+    margin-bottom: 10px;
+}
+.tab-header2 p:nth-child(1){
+    width: 60%;
+}
+.tab-header2 p:nth-child(2){
+    text-align: center;
+    width: 15%;
+}
+.tab-header2 p:nth-child(3){
+    text-align: center;
+    width: 10%;
+}
+.tab-header2 p:nth-child(4){
+    text-align: center;
+    width: 15%;
+}
+.tab-row2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-bottom: 1px solid #000;
+}
+.tab-row2 p:nth-child(1){
+    width: 60%;
+}
+.tab-row2 p:nth-child(2){
+    text-align: center;
+    width: 15%;
+}
+.tab-row2 p:nth-child(3){
+    text-align: center;
+    width: 10%;
+}
+.tab-row2 p:nth-child(4){
+    text-align: center;
+    width: 15%;
+}
+.subtotal2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+.item-footer2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+    margin-bottom: 30px;
+}
+.if-left2{
+    flex: 1;
+
+}
+.if-left2 span h4:nth-child(1){
+    background-color: rgb(4, 22, 74);
+    color: white;
+    padding: 0 10px;
+}
+.if-left2 span:nth-child(2),.if-left2 span:nth-child(3){
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.if-right2{
+    flex: 1;
+}
+.if-right2 span:nth-child(3){
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(4, 22, 74);
+    color: white;
+    padding: 0 10px;
+}
+.if-right2 span:nth-child(1),.if-right2 span:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 10px;
+}
+.contact2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 100%;
+    background-color: rgb(4, 22, 74);
+    color: white;
+    padding: 5px 10px;
+}

@@ -1,0 +1,174 @@
+
+
+.invo-action{
+    display: flex;
+    width: 794px;
+    height: 10vh;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+
+}
+.invoice-body3{
+    width: 794px;
+    height: 1123px;
+    padding: 30px;
+    color: #132E4B;
+}
+.logo-wrapper3{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.gst-detail3{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 0.7rem;
+    margin-bottom: 30px;
+}
+.logo3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo3 p{
+    font-size: 1.5rem;
+}
+
+.invo-date3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.bill-title3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bill-title3 p{
+    font-weight: bold;
+    font-size: 1.3rem;
+    flex: 1;
+}
+.info-wrapper3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-size: 0.9rem;
+    gap: 10px;
+}
+.bill-to3{
+    width: 25%;
+}
+
+.bill-to3 p:nth-child(1),.bill-from3 p:nth-child(1){
+font-weight: bold;
+}
+.bill-from3{
+    width: 25%;
+}
+.items3{
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+    min-height: 450px;
+}
+.tab-header3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #132E4B;
+    color: white;
+    padding: 5px 10px ;
+    margin-bottom: 10px;
+}
+.tab-header3 p:nth-child(1){
+    width: 477px;
+}
+.tab-header3 p:nth-child(2){
+    text-align: center;
+    width: 119px;
+}
+.tab-header3 p:nth-child(3){
+    text-align: center;
+    width: 79px;
+}
+.tab-header3 p:nth-child(4){
+    text-align: center;
+    width: 119px;
+}
+.tab-row3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-bottom: 1px solid #000;
+}
+.tab-row3 p:nth-child(1){
+    width: 60%;
+}
+.tab-row3 p:nth-child(2){
+    text-align: center;
+    width: 15%;
+}
+.tab-row3 p:nth-child(3){
+    text-align: center;
+    width: 10%;
+}
+.tab-row3 p:nth-child(4){
+    text-align: center;
+    width: 15%;
+}
+
+.item-footer3{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.if-left3{
+    width: 477px;
+}
+.if-left3 span,.if-right3 span{
+    display: flex;
+}
+.if-left3 span p{
+    width: 150px;
+}
+.if-righ3{
+    width: 279px;
+}
+.if-right3 span {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.if-right3 span h4{
+    width: 150px;
+}
+.if-right3 span:nth-child(1),.if-right3 span:nth-child(2){
+    background-color: #31c763;
+    color: white;
+
+}
+.if-right3 span:nth-child(3){
+    background-color: #132E4B;
+    color: white;
+    
+}
+.if-right3 span p{
+    width: 110px;
+    text-align: center;
+
+}
+.contact3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 100%;
+    background-color: #132E4B;
+    color: white;
+    padding: 5px 10px;
+}
