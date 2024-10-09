@@ -2,7 +2,7 @@ import { Divider, Button, Popconfirm } from 'antd';
 import { useRef } from "react";
 import ReactToPrint from "react-to-print";
 import { useSelector } from 'react-redux';
-import "../../../styles/Template3.css"
+import "../../../styles/template3.css"
 import { MailOutlined, PhoneOutlined,PrinterFilled } from '@ant-design/icons';
 import SaveInvoice from '../../../components/SaveInvoice';
 import CreateNewInvoice from '../../../components/CeateNewInvoice';
