@@ -1,7 +1,7 @@
 import { Button, Col, DatePicker, Divider, Form, Input, Row, Select, Space, Table, Checkbox, Popconfirm, message } from 'antd';
 import { EditFilled, DeleteFilled } from '@ant-design/icons';
 import { useEffect, useState } from 'react';
-import ImageUploader from '../../Components/ImageUploader';
+import ImageUploader from '../../components/ImageUploader';
 import { useDispatch, useSelector } from 'react-redux';
 import { pushInvoiceData, setDataFlag } from '../../features/Slices/invoiceSlice';
 import dayjs from 'dayjs';
