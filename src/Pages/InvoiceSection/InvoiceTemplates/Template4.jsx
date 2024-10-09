@@ -1,4 +1,4 @@
-import "../../../styles/Template4.css"
+import "../../../styles/template4.css"
 import bg from "../../../assets/backgrounds/template4bg.svg"
 import upload from "../../../assets/invoiceTemplates/file.png"
 import { PhoneOutlined, MailOutlined, EnvironmentOutlined } from '@ant-design/icons';
