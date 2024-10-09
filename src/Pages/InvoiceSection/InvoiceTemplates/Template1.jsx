@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import ReactToPrint from "react-to-print";
 import { Button, Popconfirm, Table } from "antd";
-import "../../../styles/Template1.css"
+import "../../../styles/template1.css"
 import { useSelector } from "react-redux";
 import logo from "../../../assets/images/logoVector.jpg"
 import SaveInvoice from "../../../components/SaveInvoice";
