@@ -1,5 +1,5 @@
 import avatar from '../../assets/images/userAvatar.png'
-import ImageUploader from '../../Components/ImageUploader'
+import ImageUploader from '../../components/ImageUploader'
 import { Button, Input, message } from 'antd'
 import { useDispatch, useSelector } from 'react-redux'
 import { EditOutlined } from '@ant-design/icons'
