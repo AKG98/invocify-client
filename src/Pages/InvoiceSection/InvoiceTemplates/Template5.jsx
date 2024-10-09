@@ -1,4 +1,4 @@
-import "../../../styles/Template5.css"
+import "../../../styles/template5.css"
 import { useRef } from "react";
 import ReactToPrint from "react-to-print";
 import { Button, Popconfirm } from "antd";
