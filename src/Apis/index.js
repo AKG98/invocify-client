@@ -1,5 +1,8 @@
 import axios from "axios";
 
 export const axiosInstance = axios.create({
-    "Content-Type": "application/json",
+    headers: {
+        "Content-Type": "application/json",
+    },
+    withCredentials: true, // Ensure cookies (auth tokens) are sent with requests
 });
