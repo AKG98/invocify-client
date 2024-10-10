@@ -2,7 +2,7 @@ import { axiosInstance } from ".";
 
 const loginUser = async (values) => {
   try {
-    const response = await axiosInstance.post("/api/users/login", values);
+    const response = await axiosInstance.post("https://invocify-server.onrender.com/api/users/login", values);
     return response;
   } catch (error) {
     return error.response.data;
@@ -11,7 +11,7 @@ const loginUser = async (values) => {
 
 const registerUser = async (values) => {
     try {
-        const response = await axiosInstance.post("/api/users/signup", values);
+        const response = await axiosInstance.post("https://invocify-server.onrender.com/api/users/signup", values);
         return response;
     } catch (error) {
         return error.response.data;
@@ -20,7 +20,7 @@ const registerUser = async (values) => {
 
 const getCurrentUser = async () => {
     try {
-        const response = await axiosInstance.get("/api/users/get-current-user");
+        const response = await axiosInstance.get("https://invocify-server.onrender.com/api/users/get-current-user");
         return response;
     } catch (error) {
         return error.response.data;
@@ -29,7 +29,7 @@ const getCurrentUser = async () => {
 
 const logoutUser = async () => {
     try {
-        const response = await axiosInstance.post("/api/users/logout");
+        const response = await axiosInstance.post("https://invocify-server.onrender.com/api/users/logout");
         return response;
     } catch (error) {
         return error.response.data;
@@ -38,7 +38,7 @@ const logoutUser = async () => {
 
 const googleLoginUser = async (values) => {
     try {
-        const response = await axiosInstance.post("/api/users/google-auth", values);
+        const response = await axiosInstance.post("https://invocify-server.onrender.com/api/users/google-auth", values);
         return response;
     } catch (error) {
         return error.response.data;
@@ -47,7 +47,7 @@ const googleLoginUser = async (values) => {
 
 const updateUser = async (id,values) => {
     try {
-        const response = await axiosInstance.put(`/api/users/update-user/${id}`, values);
+        const response = await axiosInstance.put(`https://invocify-server.onrender.com/api/users/update-user/${id}`, values);
         return response;
     } catch (error) {
         return error.response.data;
@@ -56,7 +56,7 @@ const updateUser = async (id,values) => {
 
 const forgotPassword = async (values) => {
     try {
-        const response = await axiosInstance.post("/api/users/forgot-password", values);
+        const response = await axiosInstance.post("https://invocify-server.onrender.com/api/users/forgot-password", values);
         console.log(response);
         return response.data;
     } catch (error) {
@@ -66,7 +66,7 @@ const forgotPassword = async (values) => {
 
 const resetPassword = async (token,values) => {
     try {
-        const response = await axiosInstance.put(`/api/users/reset-password/${token}`, values);
+        const response = await axiosInstance.put(`https://invocify-server.onrender.com/api/users/reset-password/${token}`, values);
         return response.data;
     } catch (error) {
         return error.response.data;
